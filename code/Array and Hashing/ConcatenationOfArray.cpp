@@ -17,7 +17,7 @@ vector<int> concatArray (vector<int>& nums) {
 int main() {
     vector<int> nums{1,2,1};
     vector<int> ans = concatArray(nums);
-    for( auto x : ans) {
+    for(auto x : ans) {
         cout << x << " ";
     }
     cout << endl;
